@@ -18,10 +18,10 @@
 </head>
 
 <body>
-    @yield('svg-bg');
-    @yield('web-title');
-    @yield('list');
-    @yield('footer');
+    @yield('svg-bg')
+    @yield('web-title')
+    @yield('list')
+    @yield('footer')
 </body>
 
 </html>

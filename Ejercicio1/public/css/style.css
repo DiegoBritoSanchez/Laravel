@@ -34,6 +34,7 @@ svg {
     top: 0;
     left: 0;
 }
+
 .container-fluid {
     display: inline-block;
     position: absolute;
@@ -43,4 +44,14 @@ svg {
     overflow: hidden;
     top: 0;
     left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white
 }
