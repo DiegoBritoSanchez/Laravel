@@ -79,7 +79,7 @@
             </div>
             <div class="offset-md-5 col-md-2 col-12">
                 <button type="submit" class="btn btn-outline-dark" id="btSel">Select!</button>
-                <button type="submit" class="btn btn-outline-dark" id=""><a href="./" >Next</a></button>
+                <button type="submit" class="btn btn-outline-dark" id=""><a href="./pages" >Next</a></button>
             </div>
         </div>
         <div class="row">
