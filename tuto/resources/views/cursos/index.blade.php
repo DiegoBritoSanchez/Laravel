@@ -1,7 +1,10 @@
 @extends('layouts.plantilla')
-
-@section('title', 'Index')
-
+@section('title', 'Cursos')
 @section('content')
-    <h1>Página cursos/index</h1>
-@endsection
+    <h1>BIENVENIDO A LA PÁGINA PRINCIPAL DE CURSOS.</h1>
+    <ul>
+        @foreach ($cursos as $curso)
+            <li>{{$curso->name}}</li>
+        @endforeach
+    </ul>
+@endsection 

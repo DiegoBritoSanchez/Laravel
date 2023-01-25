@@ -1,8 +1,10 @@
 <?php
 
+use Illuminate\Routing\RouteGroup;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CursoController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,18 +17,17 @@ use App\Http\Controllers\CursoController;
 */
 
 Route::get('/', HomeController::class);
-
-Route::controller(CursoController::class)->group(function () {
-    Route::get('cursos',  'index');
+Route::controller(CursoController::class)->group(function(){
+    Route::get('cursos', 'index');
     Route::get('cursos/create', 'create');
-    Route::get('cursos/create/{categoria}', 'show');
-    Route::get('cursos/{categoria}', 'index');
+    Route::get('cursos/{cursos}', 'show');
 });
 
-// Route::get('cursos/{curso}/{categoria?}', function ($curso, $categoria = null) {
-//     if ($categoria) {
-//         return "Variable: $curso <br> Variable2: $categoria";
-//     } else {
-//         return "Variable: $curso";
-//     }
-// });
+
+
+
+
+
+
+
+
